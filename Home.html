@@ -1,21 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME PAGE</title>
-       <link rel="stylesheet" href="style.css">
-</head>
-<body class="Home body">
-    <div class="banner">
-    <img src="Images/burgundy.jpeg" width="600px"height="40px">
-    <img src="Images/beige banner.jpeg"width="600px"height="40px">
-    <img src="Images/burgundy.jpeg"width="600px"height="40px">
-    </div>
-    <h1>LELA'S</h1>
-    <div class="hero-image">
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Fleur+De+Leah&family=Imperial+Script&family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Fleur+De+Leah&family=Imperial+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="Home body">
+    <header class="navbar">
+      <div class="logo">Lela's.co</div>
+      <nav>
+        <ul class="navmenu">
+          <li class="navitem"><a href="Home.html">HOME</a></li>
+          <li class="navitem"><a href="Menu.html">MENU</a></li>
+          <li class="navitem"><a href="About.html">ABOUTUS</a></li>
+          <li class="navitem"><a href="contact.html">CONTACT</a></li>
+          <li class="navitem"><a href="Reservations.html">RESERVATION</a></li>
+          <li class="navitem"><a href="service.html">SERVICE</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <!-- HEROSECTION -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Welcome To Lela's.co</h1>
 
+        <p>
+          Where species Whisper stories<br />
+          and every dish feels like home.<br />
+          step into warmth,beauty,and the heart of Middle Eastern grace.
+        </p>
+        <div class="hero-buttons">
+          <a href="Reservations.html" class="btn primary">Reserve your Table</a>
+          <a href="Menu.html" class="btn secondary">Explore Menu</a>"
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img src="Images/ban1.jpg" />
+      </div>
+    </section>
+
+    <section class="menu-snippet">
+      <div class="menu-text">
+        <h2 class="poetic-note">Our menu...</h2>
+        <br /><br />
+
+        <div class="dish">
+          <h3>Saffron Rose Lamb</h3>
+          <p>
+            A tender cut of lamb slow-braised in saffron,<br />
+            rose water, and cardamom—finished with golden<br />
+            apricots and crushed pistachios, served on a bed of jeweled rice.
+          </p>
+        </div>
+
+        <div class="dish">
+          <h3>Pomegranate Glazed Halloumi</h3>
+          <p>
+            Pan-seared halloumi drizzled with a rich pomegranate molasses
+            glaze,<br />
+            layered with roasted beetroot, mint, and toasted sesame.
+          </p>
+        </div>
+
+        <div class="dish">
+          <h3>Date-Infused Chicken Tagine</h3>
+          <p>
+            Succulent chicken slow-cooked in a clay tagine with medjool
+            dates,<br />
+            cinnamon, preserved lemon, and a touch of harissa.
+          </p>
+        </div>
+
+        <button class="menu-button">Explore Full Menu</button>
+      </div>
+
+      <div class="menu-image">
+        <h2>
+          Each dish a whisper from the past, kissed with spice and
+          <br />memory—crafted for hearts that hunger for more than flavor.
+        </h2>
+        <br />
+
+        <img src="Images/menusneppit.jpg" />
+      </div>
+    </section>
+
+    <section class="ambiance-section">
+      <h2 class="ambiance-header">The Ambiance</h2>
+      <p class="ambiance-note">
+        Bathed in golden light and hushed tradition, every corner of Lela's.co
+        whispers home.
+      </p>
+
+      <div class="ambiance-gallery">
+        <img src="Images/cornor4.jpg" />
+        <img src="Images/cornor3.jpeg"/>
+        <!-- <img src="Images/cornor2.jpeg"> -->
+        <img src="Images/cornor.jpeg" />
+        <!-- <img src="Images/conor1.jpeg" /> -->
+        <img src="Images/cornor5.jpg" />
+        <img src="Images/cornor7.jpg" />
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="Images/cornor2.jpeg" alt="Lela & Co Ambiance" />
+        </div>
+        <div class="about-content">
+          <h2 class="about-tagline">
+            Born from kitchens scented with rose and cumin, Lela's.Co is a love
+            letter to tradition—served with grace, plated with memory.
+          </h2>
+          <p class="about-description">
+            At Lela's.Co, we don’t just cook—we remember. Inspired by
+            generations of storytelling and spice, our restaurant is a bridge
+            between the past and present. Each table holds history, each meal is
+            an heirloom, and every guest is family.
+          </p>
+          <button class="about-button">Explore Our Story</button>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="testimonial-section">
+   
+  <div class="testimonial-card">
+    <img class="dish-img" src="Images/amirsdish.jpg" alt="Sweet Chicken" />
+    <img class="customer-img" src="Images/Amir.jpg" alt="Amir Ahmad" />
+    <h3>Amir Ahmad</h3>
+    <p class="quote">
+      “The sauce kissed my tongue like silk—<br />
+      honey and cream whispering comfort into every bite.”
+    </p>
+  </div>
+
+  <div class="testimonial-card">
+    <img class="dish-img" src="Images/geemaa.jpg" alt="Geemaa" />
+    <img class="customer-img" src="Images/layla.jpg" alt="Layla" />
+    <h3>Layla</h3>
+    <p class="quote">
+      “Each potato crisp held a story,<br />
+      and the beef—tender like a secret told only to those who savor slowly.”
+    </p>
+  </div>
+
+  <div class="testimonial-card">
+    <img class="dish-img" src="Images/lastdish.jpg" alt="Rose Lamb Pilaf" />
+    <img class="customer-img" src="Images/yasmine.jpg" alt="Yasmine Al-Fayeed" />
+    <h3>Yasmine Al-Fayeed</h3>
+    <p class="quote">
+      “Every grain of rice bloomed like a garden in my mouth—<br />
+      rose-touched, spice-warmed, and unforgettable.”
+    </p>
+  </div>
+</section>
+<section class="footer-top">
+  <div class="footer-card">
+    <h3>Opening Hours</h3>
+    <p><strong>Monday to Friday:</strong> 9AM – 10PM</p>
+    <p><strong>Saturday & Sunday:</strong> 10AM – Midnight</p>
+
+    <div class="cofounder-note">
+      <p>“Looking forward to the taste of tradition and colors.”</p>
+      <p class="signature">– Nurhan & Michael Asante</p>
     </div>
-</body>
+  </div>
+
+  <div class="footer-image">
+    <img src="Images/cornor3.jpeg" alt="Restaurant interior" />
+  </div>
+</section>
+<footer class="footer-bottom">
+  <div class="footer-columns">
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="About.html">AboutUs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Reservations.html">Reservation</a></li>
+        <li><a href="service.html">Service</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <p>info@lelaandco.com</p>
+      <p>Phone: +254 712 345 678</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <form>
+        <input type="email" placeholder="Your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-note">
+    <p>Made with love by Nurhan & Michael © 2025 Lela's.Co.</p>
+  </div>
+</footer>
+
+  </body>
 </html>
