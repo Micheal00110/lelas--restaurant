@@ -9,6 +9,7 @@
   margin: 0;
   position: absolute;
   width: 100%;
+  color:#690B22;
 }
 
 .navmenu {
@@ -20,7 +21,7 @@
   list-style: none;
 }
 .navitem a {
-  color:black;
+  color:#fffDD0;
   text-decoration: none;
   justify-content: space-between;
   font-size: 20px;
