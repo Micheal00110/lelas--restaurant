@@ -1,67 +1,60 @@
-.body{
+.body {
   margin: 0;
-}.hero{
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #fffDD0;
-    color: #690B22;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    overflow: hidden;
-    min-height: 100vh;
-   
-  
 }
-
-.hero-buttons .btn{
-    padding: 12px 24px;
-    margin-right: 15px;
-    border: none;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-.btn.primary{
-    background-color:#690B22;
-    color:black;
-}
-.btn.secondary{
-    background-color: #fff ;
-    color: #690B22;
-}
-.hero-right{
+.hero {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fffdd0;
+  color: #690b22;
   padding: 0;
-
-}
-.hero-right img{
-    width:100%;
-    margin: 0;
-    
-    }
-h1{
-    font-size: 80px;
-    font-family: 'Imperial Script',cursive;
- 
-}
-p{
-    font-size: 30px;
-
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  min-height: 100vh;
 }
 
-
+.hero-buttons .btn {
+  padding: 12px 24px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn.primary {
+  background-color: #690b22;
+  color: black;
+}
+.btn.secondary {
+  background-color: #fff;
+  color: #690b22;
+}
+.hero-right {
+  padding: 0;
+}
+.hero-right img {
+  width: 100%;
+  margin: 0;
+}
+h1 {
+  font-size: 80px;
+  font-family: "Imperial Script", cursive;
+}
+p {
+  font-size: 30px;
+}
 
 .menu-snippet {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 60px;
-  background-color: #690B22;
-  font-family: 'Georgia', serif;
-  color: white; 
+  background-color: #690b22;
+  font-family: "Georgia", serif;
+  color: white;
 }
 
 .menu-text {
@@ -69,28 +62,27 @@ p{
 }
 
 .poetic-note {
-  font-size:70px;
+  font-size: 70px;
   font-style: italic;
-  color:white; 
+  color: white;
   margin-bottom: 25px;
-  font-family: 'Imperial Script',cursive;
+  font-family: "Imperial Script", cursive;
 }
 
 .dish h3 {
   font-size: 25px;
   color: white;
   margin-bottom: 5px;
-
 }
 
 .dish p {
-  margin-bottom:20px;
+  margin-bottom: 20px;
   line-height: 1.4;
-  color:#fffDD0;
+  color: #fffdd0;
 }
 
 .menu-button {
-  background-color:white;
+  background-color: white;
   border: none;
   padding: 12px 20px;
   font-size: 1rem;
@@ -100,7 +92,7 @@ p{
 }
 
 .menu-button:hover {
-  background-color: #690B22; 
+  background-color: #690b22;
 }
 
 .menu-image img {
@@ -108,23 +100,22 @@ p{
   height: 800px;
   border-radius: 8px;
 }
-.menu-image{
-    font-size: 20px;
-    color: white;
+.menu-image {
+  font-size: 20px;
+  color: white;
 }
 
-
 .ambiance-section {
-  background-color: #fffDD0;
+  background-color: #fffdd0;
   padding: 60px;
   text-align: center;
   color: #3b1c1d;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
 }
 
 .ambiance-header {
   font-size: 2rem;
-  color: #6a1f25; 
+  color: #6a1f25;
   margin-bottom: 20px;
 }
 
@@ -150,12 +141,11 @@ p{
   object-fit: cover;
 }
 
-
 .about-section {
   background-color: #fdfaf6;
   padding: 60px;
   color: #3b1c1d;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   gap: 5%;
 }
 
@@ -167,7 +157,7 @@ p{
   flex-wrap: wrap;
 }
 
-.about-image{
+.about-image {
   padding-right: 20%;
 }
 .about-image img {
@@ -175,7 +165,6 @@ p{
   max-width: 500px;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  
 }
 
 .about-content {
@@ -199,7 +188,7 @@ p{
 }
 
 .about-button {
-  background-color: #690B22; /* Burgundy */
+  background-color: #690b22; /* Burgundy */
   color: #fff;
   border: none;
   padding: 12px 24px;
@@ -213,13 +202,12 @@ p{
   background-color: #a52a2a;
 }
 
-
 .testimonial-section {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
   padding: 2rem;
-  background-color: #fffDD0;
+  background-color: #fffdd0;
   flex-wrap: wrap;
 }
 
@@ -229,7 +217,7 @@ p{
   background-color: #fff;
   border-radius: 12px;
   padding-top: 2.5rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   overflow: hidden;
 }
@@ -251,7 +239,7 @@ p{
   top: 160px;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .testimonial-card h3 {
