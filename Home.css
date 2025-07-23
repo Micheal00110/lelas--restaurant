@@ -1,20 +1,21 @@
-.hero{
+.body{
+  margin: 0;
+}.hero{
     display: flex;
     flex: 1;
     justify-content: space-around;
     align-items: center;
-    /* padding: 50px 50px; */
     background-color: #fffDD0;
     color: #690B22;
     padding: 0;
-    margin: -50px;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+   
   
 }
 
-.hero-left{
-    flex:1;
-    padding-right: 40px;
-}
 .hero-buttons .btn{
     padding: 12px 24px;
     margin-right: 15px;
@@ -33,11 +34,13 @@
     color: #690B22;
 }
 .hero-right{
-    padding: 0;
+  padding: 0;
+
 }
 .hero-right img{
     width:100%;
-    height: 100%;
+    margin: 0;
+    
     }
 h1{
     font-size: 80px;
