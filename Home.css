@@ -1,10 +1,11 @@
 .body {
   margin: 0;
+  position: relative;
 }
 .hero {
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #fffdd0;
   color: #690b22;
@@ -15,6 +16,12 @@
   min-height: 100vh;
 }
 
+.hero-left{
+padding-left:90px;
+width: 25%;
+
+
+}
 .hero-buttons .btn {
   padding: 12px 24px;
   margin-right: 15px;
@@ -26,7 +33,7 @@
 }
 .btn.primary {
   background-color: #690b22;
-  color: black;
+  color: white;
 }
 .btn.secondary {
   background-color: #fff;
@@ -41,7 +48,7 @@
 }
 h1 {
   font-size: 80px;
-  font-family: "Imperial Script", cursive;
+  /* font-family: "Imperial Script", cursive; */
 }
 p {
   font-size: 30px;
@@ -143,17 +150,17 @@ p {
 
 .about-section {
   background-color: #fdfaf6;
-  padding: 60px;
+  padding: 6rem;
   color: #3b1c1d;
   font-family: "Georgia", serif;
-  gap: 5%;
+  gap: 5px;
+
 }
 
 .about-container {
   display: flex;
   gap: 40px;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -204,7 +211,7 @@ p {
 
 .testimonial-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 2rem;
   padding: 2rem;
   background-color: #fffdd0;
