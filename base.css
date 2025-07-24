@@ -8,8 +8,11 @@
   position: absolute;
   width: 100%;
   color:#690B22;
+
   padding-left: 20px;
   padding-right: 20px;
+
+
 }
 
 .navmenu {
@@ -19,8 +22,10 @@
   padding: 0;
   list-style: none;
 }
+
 .navmenu li a{
   color: #690B22;
+
   text-decoration: none;
   font-size: 18px;
 }
