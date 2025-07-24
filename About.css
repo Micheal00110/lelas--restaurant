@@ -120,6 +120,7 @@ body {
     color: #FFFDD0;
     margin-bottom: 3rem;
     border-radius: 20px;
+    text-align: center;
 }
 
 .founders-section .section-title {
@@ -287,6 +288,7 @@ body {
     background: #FFFDD0;
     margin-top: 4rem;
     border-radius: 20px;
+    text-align: center;
 }
 
 .chef-grid {
@@ -361,6 +363,7 @@ body {
     color: #FFFDD0;
     margin-top: 4rem;
     border-radius: 20px;
+    text-align: center;
 }
 
 .values-section .section-title {
@@ -417,6 +420,7 @@ body {
     background: #FFFDD0;
     margin-top: 4rem;
     border-radius: 20px;
+    text-align: center;
 }
 
 .awards-grid {
@@ -471,6 +475,7 @@ body {
     background: #F5F5DC;
     margin-top: 4rem;
     border-radius: 20px;
+    text-align: center;
 }
 
 .timeline {
