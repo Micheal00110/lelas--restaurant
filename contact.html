@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Us - Lela's Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Contact.css">
 </head>
 <body>
-    
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="logo">Lela's.co</div>
+      <nav>
+        <ul class="navmenu">
+          <li class="navitem"><a href="Home.html">HOME</a></li>
+          <li class="navitem"><a href="Menu.html">MENU</a></li>
+          <li class="navitem"><a href="About.html">ABOUTUS</a></li>
+          <li class="navitem"><a href="contact.html">CONTACT</a></li>
+          <li class="navitem"><a href="Reservations.html">RESERVATION</a></li>
+          <li class="navitem"><a href="service.html">SERVICE</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h1>Get in Touch</h1>
+                    <p>Have questions? We'd love to hear from you.</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h3>Location</h3>
+                                <p>123 Garden City Mall, Nairobi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+254 712 345 678</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h3>Email</h3>
+                                <p>info@lelas.co.ke</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="reservation">Make a Reservation</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="catering">Catering Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Menu.html">Menu</a>
+                <a href="service.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2025 Lela's Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
