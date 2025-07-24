@@ -1,0 +1,168 @@
+.navbar {
+  display: flex;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 1000;
+  background-color:rgb(0, 0, 0,0.2);
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  color:#690B22;
+}
+
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+}
+.navitem a {
+  color:#fffDD0;
+  text-decoration: none;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.navbar nav ul li a:hover {
+  color: #690B22;
+}
+.navbar .logo {
+  font-size: 55px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.logo{
+  font-family: 'Imperial Script',cursive;
+  font-weight: 400;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #690B22;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 15%;
+}
+
+.footer-card {
+  flex: 1;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  color: #3a2f2f;
+}
+
+.footer-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #8b3e3e; 
+}
+
+.footer-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.cofounder-note {
+  margin-top: 1.2rem;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #5c4a4a;
+}
+
+.signature {
+  margin-top: 0.5rem;
+  text-align: right;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #734d26;
+}
+
+.footer-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: right;
+  padding-left: 0;
+
+}
+
+.footer-image img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+.footer-bottom {
+  background-color:#fffDD0;
+  color: black;
+  padding: 3rem 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-col h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #690B22;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li a {
+  color:black;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-col p,
+.footer-col form {
+  font-size: 0.95rem;
+}
+
+.footer-col input[type="email"] {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.footer-col button {
+  padding: 0.5rem 1rem;
+  background-color: #690B22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #690B22;
+}
+
